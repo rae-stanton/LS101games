@@ -73,7 +73,7 @@ def detect_winner(brd)
     elsif brd[line[0]] == COMPUTER_MARKER &&
       brd[line[1]] == COMPUTER_MARKER &&
       brd[line[2]] == COMPUTER_MARKER
-      return "Computer"
+      return "The Void"
     end
   end
   nil
